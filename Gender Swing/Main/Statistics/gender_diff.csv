@@ -1,0 +1,548 @@
+lga,genderDiff
+Albury,-0.025198087
+Armidale Regional,-0.029864994
+Ballina,-0.026942736
+Balranald,-0.006796556
+Bathurst Regional,0.01518796
+Bayside (NSW),0.003140957
+Bega Valley,-0.008361064
+Bellingen,-0.021444268
+Berrigan,-0.003251277
+Blacktown,0.002964642
+Bland,0.01335258
+Blayney,0.000266383
+Blue Mountains,-0.026722818
+Bogan,-0.002821443
+Bourke,-0.006206041
+Brewarrina,0.045698925
+Broken Hill,-0.013985618
+Burwood,-0.015372429
+Byron,-0.033345345
+Cabonne,0.001598837
+Camden,-0.013563872
+Campbelltown (NSW),-0.01336605
+Canada Bay,-0.03005565
+Canterbury-Bankstown,0.008379843
+Carrathool,0.081853013
+Central Coast (NSW),-0.025739209
+Central Darling,0.043181818
+Cessnock,0.014668706
+Clarence Valley,0.010335917
+Cobar,0.023914104
+Coffs Harbour,-0.023648048
+Coolamon,-0.017496024
+Coonamble,0.008868023
+Cootamundra-Gundagai Regional,0.002546764
+Cowra,0.004783188
+Cumberland,0.038262249
+Dubbo Regional,-0.00082856
+Dungog,0.008923885
+Edward River,0.000118526
+Eurobodalla,-0.010110499
+Fairfield,-0.00805626
+Federation,0.003509867
+Forbes,-0.007566876
+Georges River,-0.009017505
+Gilgandra,-0.003936096
+Glen Innes Severn,-0.001120825
+Goulburn Mulwaree,0.01761155
+Greater Hume Shire,0.028185502
+Griffith,0.016040026
+Gunnedah,0.004814673
+Gwydir,-0.020566076
+Hawkesbury,0.000843432
+Hay,0.007977801
+Hilltops,-0.009783514
+Hornsby,-0.01505009
+Hunters Hill,-0.01979251
+Inner West,-0.019480661
+Inverell,-0.000725487
+Junee,0.154418605
+Kempsey,0.013629283
+Kiama,-0.017899917
+Ku-ring-gai,-0.030266567
+Kyogle,-0.011986301
+Lachlan,0.005691982
+Lake Macquarie,-0.013642291
+Lane Cove,-0.012348173
+Leeton,-0.006706733
+Lismore,-0.007802634
+Lithgow,0.01755059
+Liverpool,0.00161708
+Liverpool Plains,0.014984227
+Lockhart,0.013822115
+Maitland,-0.016620101
+Mid-Coast,-0.015421312
+Mid-Western Regional,0.01774043
+Moree Plains,0.009335699
+Mosman,-0.071431081
+Murray River,0.005320814
+Murrumbidgee,0.031986532
+Muswellbrook,0.037963919
+Nambucca Valley,-0.017423313
+Narrabri,0.023342962
+Narrandera,-0.004013261
+Narromine,0.02264268
+Newcastle,-0.006337225
+North Sydney,-0.052807371
+Northern Beaches,-0.016375467
+Oberon,0.053918045
+Orange,-0.01563929
+Parkes,0.005189234
+Parramatta,0.008969669
+Penrith,-0.006319901
+Port Macquarie-Hastings,-0.031079286
+Port Stephens,-0.006801095
+Queanbeyan-Palerang Regional,0.01688656
+Randwick,-0.019434485
+Richmond Valley,-4.24E-05
+Ryde,-0.017376496
+Shellharbour,-0.013356357
+Shoalhaven,0.000857167
+Singleton,0.044783365
+Snowy Monaro Regional,0.04039891
+Snowy Valleys,0.012146836
+Strathfield,0.031918136
+Sutherland Shire,-0.016626029
+Sydney,0.054172426
+Tamworth Regional,-0.009080626
+Temora,-0.021290752
+Tenterfield,-0.013239188
+The Hills Shire,-0.008991787
+Tweed,-0.029263723
+Upper Hunter Shire,0.008418689
+Upper Lachlan Shire,0.026969733
+Uralla,-0.014183214
+Wagga Wagga,-0.016239316
+Walcha,-0.001325381
+Walgett,0.005366726
+Warren,0.01778809
+Warrumbungle Shire,0.005835314
+Waverley,-0.022136392
+Weddin,0.032042352
+Wentworth,0.058100708
+Willoughby,-0.033958492
+Wingecarribee,-0.029548574
+Wollondilly,0.006460425
+Wollongong,-0.005417946
+Woollahra,-0.060548143
+Yass Valley,-0.000928397
+Unincorporated NSW,-0.029411765
+Alpine,-0.010337489
+Ararat,0.060823957
+Ballarat,-0.033062512
+Banyule,-0.022673031
+Bass Coast,-0.022120519
+Baw Baw,-0.022125738
+Bayside (Vic.),-0.041363339
+Benalla,-0.022798143
+Boroondara,-0.036697842
+Brimbank,0.005642767
+Buloke,0.036215334
+Campaspe,-0.009780776
+Cardinia,-0.010148844
+Casey,0.000933813
+Central Goldfields,-0.00597818
+Colac Otway,0.007801291
+Corangamite,0.006924949
+Darebin,-0.023274687
+East Gippsland,-0.013642086
+Frankston,-0.018628071
+Gannawarra,-0.001696193
+Glen Eira,-0.025463716
+Glenelg,-0.000299162
+Golden Plains,0.028899875
+Greater Bendigo,-0.025812359
+Greater Dandenong,0.020172191
+Greater Geelong,-0.021826159
+Greater Shepparton,-0.001079945
+Hepburn,-0.015659141
+Hindmarsh,0
+Hobsons Bay,-0.01724194
+Horsham,-0.013206343
+Hume,0.004569577
+Indigo,-0.009565772
+Kingston (Vic.),-0.025964015
+Knox,-0.016525012
+Latrobe (Vic.),-0.017045897
+Loddon,0.015324675
+Macedon Ranges,-0.011633318
+Manningham,-0.028205393
+Mansfield,-0.012658228
+Maribyrnong,0.007083497
+Maroondah,-0.027360441
+Melbourne,0.00028632
+Melton,0.002014093
+Mildura,-0.009812354
+Mitchell,0.012036068
+Moira,0.001482653
+Monash,0.001745653
+Moonee Valley,-0.02468182
+Moorabool,-0.003140256
+Moreland,-0.020438974
+Mornington Peninsula,-0.028769294
+Mount Alexander,0.002685765
+Moyne,-0.008154531
+Murrindindi,0.036606317
+Nillumbik,-0.008415545
+Northern Grampians,0.008329828
+Port Phillip,-0.019360822
+Pyrenees,0.049520557
+Queenscliffe,-0.054095827
+South Gippsland,-0.006188689
+Southern Grampians,-0.014919942
+Stonnington,-0.041024483
+Strathbogie,-0.002639916
+Surf Coast,-0.008904128
+Swan Hill,0.007061685
+Towong,0.023451399
+Wangaratta,-0.029724277
+Warrnambool,-0.033456619
+Wellington,0.012232685
+West Wimmera,0.015841086
+Whitehorse,-0.027826625
+Whittlesea,-0.003239876
+Wodonga,-0.02063312
+Wyndham,0.013690398
+Yarra,-0.018078936
+Yarra Ranges,-0.005926858
+Yarriambiack,0.01919828
+Unincorporated Vic,0.162790698
+Aurukun,-0.053934571
+Balonne,0.005709066
+Banana,0.033622042
+Barcaldine,0.019210618
+Barcoo,0.070512821
+Blackall Tambo,-0.019791667
+Boulia,-0.127659574
+Brisbane,-0.008010924
+Bulloo,0.046783626
+Bundaberg,-0.011046965
+Burdekin,0.022800143
+Burke,0.213953488
+Cairns,-0.007938008
+Carpentaria,0.075497916
+Cassowary Coast,0.029906859
+Central Highlands (Qld),0.051110876
+Charters Towers,0.001761302
+Cherbourg,-0.097359736
+Cloncurry,0.131443995
+Cook,0.07277046
+Croydon,-0.130111524
+Diamantina,0.125925926
+Doomadgee,-0.003484321
+Douglas,0.018561671
+Etheridge,0.135359116
+Flinders (Qld),-0.001972387
+Fraser Coast,-0.016095933
+Gladstone,0.019656631
+Gold Coast,-0.023567132
+Goondiwindi,0.004998078
+Gympie,-0.002915452
+Hinchinbrook,0.026382824
+Hope Vale,0.035035035
+Ipswich,-0.004869225
+Isaac,0.129225007
+Kowanyama,0.023465704
+Livingstone,0.032973095
+Lockhart River,0.090352221
+Lockyer Valley,-0.003687563
+Logan,-0.006101386
+Longreach,-0.000270783
+Mackay,0.010675174
+McKinlay,0.081145585
+Mapoon,0.063348416
+Maranoa,0.004938272
+Mareeba,0.06395098
+Moreton Bay,-0.015061062
+Mornington,-0.046182846
+Mount Isa,0.036825133
+Murweh,-0.033915212
+Napranum,-0.038588754
+Noosa,-0.02618114
+North Burnett,0.014392744
+Northern Peninsula Area,-0.022869023
+Palm Island,-0.027522936
+Paroo,0.015222482
+Pormpuraaw,-0.047468354
+Quilpie,0.025641026
+Redland,-0.016521363
+Richmond,0.029908973
+Rockhampton,-0.007406157
+Scenic Rim,-0.004060099
+Somerset,0.016738214
+South Burnett,0.006211553
+Southern Downs,-0.011162359
+Sunshine Coast,-0.033071012
+Tablelands,-0.00974026
+Toowoomba,-0.026352415
+Torres,-0.003113501
+Torres Strait Island,0.000465116
+Townsville,0.00362632
+Weipa,0.054118774
+Western Downs,0.018160652
+Whitsunday,0.034625597
+Winton,-0.021201413
+Woorabinda,-0.106628242
+Wujal Wujal,-0.035211268
+Yarrabah,-0.034642032
+Adelaide,0.020155767
+Adelaide Hills,-0.009163636
+Adelaide Plains,0.04720858
+Alexandrina,-0.006459992
+Anangu Pitjantjatjara Yunkunytjatjara,-0.06577917
+Barossa,0.000977746
+Barunga West,0.026158445
+Berri Barmera,0.021494371
+Burnside,-0.048057876
+Campbelltown (SA),-0.031311402
+Ceduna,0.013968776
+Charles Sturt,-0.026813701
+Clare and Gilbert Valleys,0.000854153
+Cleve,0.063063063
+Coober Pedy,0.174876847
+Copper Coast,0.010693792
+Elliston,0.082851638
+Flinders Ranges,0.041518387
+Franklin Harbour,0.064247921
+Gawler,-0.032959216
+Goyder,0.03479942
+Grant,0.116903633
+Holdfast Bay,-0.045632196
+Kangaroo Island,0.048209642
+Karoonda East Murray,0.028292683
+Kimba,-0.018043685
+Kingston (SA),0.047578947
+Light,0.014487347
+Lower Eyre Peninsula,0.076567657
+Loxton Waikerie,0.023989264
+Maralinga Tjarutja,0.156862745
+Marion,-0.039226346
+Mid Murray,0.08241582
+Mitcham,-0.031270167
+Mount Barker,-0.030055265
+Mount Gambier,-0.018811953
+Mount Remarkable,0.020883259
+Murray Bridge,0.020762484
+Naracoorte Lucindale,0.055305755
+Northern Areas,0.022966302
+Norwood Payneham and St Peters,-0.037463672
+Onkaparinga,-0.022159567
+Orroroo Carrieton,0.077441077
+Peterborough,-0.036548832
+Playford,-0.012896105
+Port Adelaide Enfield,-0.003785339
+Port Augusta,0.05196153
+Port Lincoln,-0.002016129
+Port Pirie,0.003717472
+Prospect,-0.001822465
+Renmark Paringa,0.023079229
+Robe,-0.024234694
+Roxby Downs,0.105710814
+Salisbury,-0.000189699
+Southern Mallee,0.086249384
+Streaky Bay,0.027219991
+Tatiara,0.057126697
+Tea Tree Gully,-0.017508107
+Coorong,0.058403286
+Tumby Bay,0.008
+Unley,-0.057059516
+Victor Harbor,-0.043891155
+Wakefield,0.0323419
+Walkerville,-0.068841923
+Wattle Range,0.031747341
+West Torrens,-0.017240551
+Whyalla,0.022131148
+Wudinna,-0.000859845
+Yankalilla,0.009446694
+Yorke Peninsula,0.043287115
+Unincorporated SA,0.188265635
+Albany,-0.010943537
+Armadale,-0.003543267
+Ashburton,0.166345536
+Augusta Margaret River,0.004509192
+Bassendean,-0.012299303
+Bayswater,0.001337122
+Belmont,0.021904132
+Beverley,0.029394813
+Boddington,0.013075611
+Boyup Brook,0.073639274
+Bridgetown-Greenbushes,-0.0234375
+Brookton,0.048907388
+Broome,-0.020594212
+Broomehill-Tambellup,0.054178145
+Bruce Rock,0.035433071
+Bunbury,-0.009488111
+Busselton,-0.021235062
+Cambridge,-0.014613219
+Canning,0.008706505
+Capel,-0.018423855
+Carnamah,0.054101222
+Carnarvon,0.04524068
+Chapman Valley,0.039057657
+Chittering,0.019016393
+Christmas Island,0.201631702
+Claremont,-0.048862173
+Cockburn,-0.008010736
+Cocos Islands,0.033222591
+Collie,0.016505282
+Coolgardie,0.074766355
+Coorow,0.03208066
+Corrigin,-0.007782101
+Cottesloe,0.003638128
+Cranbrook,-0.013192612
+Cuballing,-0.01618123
+Cue,0.342105263
+Cunderdin,0.09538003
+Dalwallinu,0.079387187
+Dandaragan,0.08897207
+Dardanup,-0.00414501
+Denmark,-0.02056595
+Derby-West Kimberley,0.011409556
+Donnybrook-Balingup,-0.006337136
+Dowerin,0.05047749
+Dumbleyung,0.072961373
+Dundas,0.181688126
+East Fremantle,-0.044265344
+East Pilbara,0.288619061
+Esperance,0.017224615
+Exmouth,0.03650546
+Fremantle,-0.018514603
+Gingin,0.041905756
+Gnowangerup,0.122222222
+Goomalling,0.005076142
+Gosnells,0.011607462
+Greater Geraldton,-0.006893539
+Halls Creek,-0.002227171
+Harvey,0.005028517
+Irwin,0.001325908
+Jerramungup,0.068561873
+Joondalup,-0.002344389
+Kalamunda,-0.00195714
+Kalgoorlie-Boulder,0.059529243
+Karratha,0.089108065
+Katanning,0.025556081
+Kellerberrin,0.03565365
+Kent,0
+Kojonup,0.039185751
+Kondinin,0.126146789
+Koorda,-0.050938338
+Kulin,-0.064475348
+Kwinana,0.033572538
+Lake Grace,0.103076923
+Laverton,0.386871508
+Leonora,0.234711706
+Mandurah,-0.032950093
+Manjimup,0.008876056
+Meekatharra,0.232323232
+Melville,-0.033328654
+Menzies,0.528998243
+Merredin,0.013970817
+Mingenew,0.092198582
+Moora,0
+Morawa,0.037369208
+Mosman Park,-0.035224636
+Mount Magnet,0.088825215
+Mount Marshall,0.019271949
+Mukinbudin,-0.011804384
+Mundaring,0.047482795
+Murchison,0.018518519
+Murray,0.00144842
+Nannup,0.003811944
+Narembeen,0.12195122
+Narrogin,-0.016406725
+Nedlands,-0.00636221
+Ngaanyatjarraku,-0.075880759
+Northam,0.016426757
+Northampton,0.056671664
+Nungarin,0.224334601
+Peppermint Grove,-0.181208054
+Perenjori,0.355828221
+Perth,0.063471197
+Pingelly,0.085820896
+Plantagenet,0.033971811
+Port Hedland,0.054381753
+Quairading,-0.038696538
+Ravensthorpe,0.042188224
+Rockingham,-0.004502294
+Sandstone,0.179487179
+Serpentine-Jarrahdale,0.006597493
+Shark Bay,0.015902713
+South Perth,-0.0123605
+Stirling,-0.021913133
+Subiaco,-0.038629005
+Swan,0.000762488
+Tammin,-0.047381546
+Three Springs,0.063032368
+Toodyay,0.033736474
+Trayning,0.140065147
+Upper Gascoyne,0.077777778
+Victoria Park,0.009918563
+Victoria Plains,-0.002403846
+Vincent,0.007738017
+Wagin,0.002219756
+Wandering,-0.016333938
+Wanneroo,-0.00958189
+Waroona,-0.00160661
+West Arthur,0.137106918
+Westonia,-0.02745098
+Wickepin,0.036516854
+Williams,0.051428571
+Wiluna,0.252631579
+Wongan-Ballidu,0.131539611
+Woodanilling,0.068376068
+Wyalkatchem,0.02892562
+Wyndham-East Kimberley,-0.00881659
+Yalgoo,0.478021978
+Yilgarn,0.255389718
+York,-0.000844357
+Break O`Day,0.03633218
+Brighton,-0.02704667
+Burnie,-0.020400176
+Central Coast (Tas.),-0.017956869
+Central Highlands (Tas.),0.096899225
+Circular Head,0.039472106
+Clarence,-0.022597602
+Derwent Valley,0.011876912
+Devonport,-0.022212317
+Dorset,0.002431698
+Flinders (Tas.),0.02771855
+George Town,0.021211701
+Glamorgan-Spring Bay,0.048065651
+Glenorchy,-0.010169227
+Hobart,-0.02378575
+Huon Valley,0.012706683
+Kentish,0.049277073
+King Island,0.067714631
+Kingborough,-0.028200417
+Latrobe (Tas.),-0.004958678
+Launceston,-0.005479376
+Meander Valley,-0.002600104
+Northern Midlands,0.005702067
+Sorell,-0.013843888
+Southern Midlands,0.050892074
+Tasman,0.063185774
+Waratah-Wynyard,-0.007718052
+West Coast,0.052824148
+West Tamar,-0.005010292
+Alice Springs,-0.038984651
+Barkly,-0.009857004
+Belyuen,-0.066666667
+Central Desert,-0.000484966
+Coomalie,0.013542409
+Darwin,0.018771151
+Darwin Waterfront Precinct,0.316455696
+East Arnhem,-0.012776072
+Katherine,0.022230525
+Litchfield,0.11836168
+MacDonnell,0.050281027
+Palmerston,0.010937934
+Roper Gulf,0.000806235
+Tiwi Islands,-0.032140248
+Victoria Daly,0.03101737
+Wagait,0.070967742
+West Arnhem,0.018925689
+West Daly,-0.005837712
+Unincorporated NT,0.028174656
+Unincorporated ACT,-0.012840695
+Unincorp. Other Territories,-0.034782609

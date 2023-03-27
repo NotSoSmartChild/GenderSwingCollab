@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gender Distribution Map</title>
+  <script src="https://maps.googleapis.com/maps/api/js?key=<YOUR_API_KEY>"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    let genderDiffData = {};
+
+    async function fetchGenderDiffData() {
+      const response = await fetch('Main/Statistics/gender_diff.csv');
+      const csvText = await response.text();
+      const csvLines = csvText.trim().split('\n');
+
+      for (let i = 1; i < csvLines.length; i++) {
+        const [lga, genderDiff] = csvLines[i].split(',');
+        genderDiffData[lga] = parseFloat(genderDiff);
+      }
+    }
+
+    function getColor(genderDiff) {
+      if (genderDiff > 0) {
+        const blueIntensity = Math.min(Math.abs(genderDiff) * 255, 255);
+        return `rgba(${blueIntensity}, 0, 255, 0.5)`;
+      } else {
+        const pinkIntensity = Math.min(Math.abs(genderDiff) * 255, 255);
+        return `rgba(255, ${pinkIntensity}, ${pinkIntensity}, 0.5)`;
+      }
+    }
+
+    function initMap() {
+      const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 4,
+        center: { lat: -25.2744, lng: 133.7751 },
+      });
+
+      fetchGenderDiffData().then(() => {
+        const dataLayer = new google.maps.Data({ map: map });
+        dataLayer.loadGeoJson(
+          "https://raw.githubusercontent.com/NotSoSmartChild/map-boundaries/NotSoSmartChild-LGA_NAME22/Australia/Australia1LGA3MB.geojson"
+        );
+
+        dataLayer.setStyle((feature) => {
+          const lga = feature.getProperty("LGA_NAME22");
+          const genderDiff = genderDiffData[lga] || 0;
+          const color = getColor(genderDiff);
+
+          return {
+            fillColor: color,
+            fillOpacity: 0.5,
+            strokeWeight: 1,
+          };
+        });
+
+        dataLayer.addListener("click", (event) => {
+          const lga = event.feature.getProperty("LGA_NAME22");
+          const genderDiff = genderDiffData[lga] || 0;
+          const color = getColor(genderDiff);
+
+          const polygons = event.feature.getGeometry().getArray();
+          polygons.forEach((polygon) => {
+            const dataPolygon = new google.maps.Data.Polygon([polygon.getArray()]);
+            dataPolygon.setOptions({
+              fillColor: color,
+              fillOpacity: 0.5,
+              strokeWeight: 1,
+            });
+            dataPolygon.setMap(map);
+          });
+        });
+      });
+    }
+  </script>
+  <style>
+    #map {
+      height: 100%;
+    }
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body onload="initMap()">
+  <div id="map"></div>
+</body>
+</html>

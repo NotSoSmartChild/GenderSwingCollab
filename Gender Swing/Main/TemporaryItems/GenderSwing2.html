@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gender Distribution Map</title>
+  <script> document.addEventListener("DOMContentLoaded", () => {
+    const script = document.createElement("script");
+    script.src = "https://maps.googleapis.com/maps/api/js?key=<YOUR_API_KEY>&callback=initMap";
+    script.async = true;
+    script.defer = true;
+    document.head.appendChild(script);
+  });
+  
+
+    let genderDiffData = {};
+
+    function readCSVFile(path) {
+      return new Promise((resolve, reject) => {
+        const xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = () => {
+          if (xhr.readyState === 4 && xhr.status === 200) {
+            resolve(xhr.responseText);
+          } else if (xhr.readyState === 4 && xhr.status !== 200) {
+            reject(xhr.statusText);
+          }
+        };
+        xhr.open('GET', path);
+        xhr.send();
+      });
+    }
+
+    async function fetchGenderDiffData() {
+  // this here isn't running
+  // your not getting gender data --> your soudning like chatgpt now
+  // try this soltion 1 + 1 = 2;
+  // please backup your code
+  try {
+    const path = 'Main/Statistics/gender_diff.csv';
+    const csvText = await readCSVFile(path);
+    const csvLines = csvText.trim().split('\n');
+    let maxGenderDiff = 0;
+    for (let i = 1; i < csvLines.length; i++) {
+      const [ lga, genderDiff] = csvLines[i].split(',');
+      const parsedGenderDiff = parseFloat(genderDiff);
+      genderDiffData[lga] = parsedGenderDiff;
+      maxGenderDiff = Math.max(maxGenderDiff, Math.abs(parsedGenderDiff));
+    }
+    console.log('genderDiffData:', genderDiffData);
+    return maxGenderDiff;
+    // catch is triggering for some reason
+  } catch (error) {
+    console.error('Error fetching gender data:', error);
+  }
+}
+
+    function getColor(genderDiff, maxGenderDiff) {
+  const absGenderDiff = Math.abs(genderDiff);
+  const colorIntensity = Math.min((absGenderDiff / maxGenderDiff) * 255, 255);
+  console.log(colorIntensity)
+  // this statement here is being dumb
+  if (genderDiff > 0) {
+    // red, green, blue, alpha
+    // alpha = transperency of the image
+    return `rgba(0, 0, 255, 0.5)`;
+  } else {
+    // you are getting issues with your genderDiff 
+    // because its only returning red 
+    // when it should be returning blue for some
+    return `rgba(255, 0, 0, 0.5)`;
+  }
+}
+
+function initMap() {
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 4,
+    center: { lat: -25.2744, lng: 133.7751 },
+  });
+
+  fetchGenderDiffData().then((maxGenderDiff) => {
+    const dataLayer = new google.maps.Data({ map: map });
+    fetch('https://raw.githubusercontent.com/NotSoSmartChild/map-boundaries/NotSoSmartChild-LGA_NAME22/Australia/Australia1LGA3MB.geojson')
+      .then(response => response.json())
+      .then(geoJson => {
+        dataLayer.addGeoJson(geoJson);
+        // ... rest of your code
+      })
+      .catch((error) => {
+      });
+
+    // ... (rest of the initMap function)
+    dataLayer.setStyle((feature) => {
+      const lga = feature.getProperty("LGA_NAME22").replace(/_/g, ' ');
+      const genderDiff = genderDiffData[lga] || 0;
+      const color = getColor(genderDiff, maxGenderDiff);
+
+      return {
+        fillColor: color,
+        fillOpacity: 0.5,
+        strokeWeight: 1,
+      };
+    });
+
+
+    dataLayer.addListener("click", (event) => {
+      const lga = event.feature.getProperty("LGA_NAME22").replace(/_/g, ' ');
+      const genderDiff = genderDiffData[lga] || 0;
+      const color = getColor(genderDiff, maxGenderDiff);
+
+      const polygons = event.feature.getGeometry().getArray();
+      polygons.forEach((polygon) => {
+        const dataPolygon = new google.maps.Polygon({
+          paths: polygon.getArray(),
+          fillColor: color,
+          fillOpacity: 0.5,
+          strokeWeight: 1,
+          map: map,
+        });
+        dataPolygon.setMap(map);
+      });
+    });
+  }).catch((error) => {
+    console.error('Error loading gender data:', error);
+  });
+}
+
+
+  </script>
+  <style>
+    #map {
+      height: 100%;
+    }
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+</body>
+</html>
